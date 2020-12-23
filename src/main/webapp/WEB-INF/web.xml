@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>UserDetailsServlet</servlet-name>
+  	<display-name>UserDetailsServlet</display-name>
+  	<description></description>
+  	<servlet-class>UserDetailsServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserServlet</servlet-name>
+  	<display-name>UserServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.phase3.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PaymentServlet</servlet-name>
+  	<display-name>PaymentServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.phase3.PaymentServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminLogin</servlet-name>
+  	<display-name>AdminLogin</display-name>
+  	<description></description>
+  	<servlet-class>com.phase3.AdminLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FilterCategory</servlet-name>
+  	<display-name>FilterCategory</display-name>
+  	<description></description>
+  	<servlet-class>com.phase3.FilterCategory</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FilterDate</servlet-name>
+  	<display-name>FilterDate</display-name>
+  	<description></description>
+  	<servlet-class>com.phase3.FilterDate</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MemberFilter</servlet-name>
+  	<display-name>MemberFilter</display-name>
+  	<description></description>
+  	<servlet-class>com.phase3.MemberFilter</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminPassword</servlet-name>
+  	<display-name>AdminPassword</display-name>
+  	<description></description>
+  	<servlet-class>com.phase3.AdminPassword</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UserDetailsServlet</servlet-name>
+  	<url-pattern>/UserDetailsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserServlet</servlet-name>
+  	<url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PaymentServlet</servlet-name>
+  	<url-pattern>/PaymentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminLogin</servlet-name>
+  	<url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FilterCategory</servlet-name>
+  	<url-pattern>/FilterCategory</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FilterDate</servlet-name>
+  	<url-pattern>/FilterDate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MemberFilter</servlet-name>
+  	<url-pattern>/MemberFilter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminPassword</servlet-name>
+  	<url-pattern>/AdminPassword</url-pattern>
+  </servlet-mapping>
+</web-app>
