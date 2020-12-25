@@ -52,6 +52,12 @@
   	<description></description>
   	<servlet-class>com.phase3.AdminPassword</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>AdminProduct</servlet-name>
+  	<display-name>AdminProduct</display-name>
+  	<description></description>
+  	<servlet-class>com.phase3.AdminProduct</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>UserDetailsServlet</servlet-name>
   	<url-pattern>/UserDetailsServlet</url-pattern>
@@ -83,5 +89,9 @@
   <servlet-mapping>
   	<servlet-name>AdminPassword</servlet-name>
   	<url-pattern>/AdminPassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminProduct</servlet-name>
+  	<url-pattern>/AdminProduct</url-pattern>
   </servlet-mapping>
 </web-app>
